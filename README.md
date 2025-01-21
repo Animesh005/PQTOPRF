@@ -31,6 +31,6 @@ Change `LD_LIBRARY_PATH`:
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
 ```
 ```bash
-./bin/toprf_eval t T flag
+./bin/toprf_eval t T
 ```
-Here, (t, T) denotes t-out-of-T threshold access structure and flag denotes type of threshold decryption. If flag is 1 then it performs the LISSS secret sharing and if flag is 0 it performs an Additive secret sharing
+Here, (t, T) denotes t-out-of-T threshold access structure. E.g., put t=2, T=3 for our TOPRF evaluation using a 2-out-of-3 threshold decryption
